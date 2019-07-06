@@ -17,4 +17,4 @@ common.o:	common.c
 
 .PHONY:		clean
 clean:
-	rm -f *.o
+	rm -f *.o $(PROGRAM)
